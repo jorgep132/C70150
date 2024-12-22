@@ -1,0 +1,23 @@
+GET http://localhost:8080/api/mocks/mockingUsers
+
+###
+
+GET http://localhost:8080/api/mocks/mockingPets
+
+###
+
+POST http://localhost:8080/api/mocks/generateData
+Content-Type: application/json
+
+{   
+    "users": 10,
+    "pets": 15
+}
+
+###
+
+GET http://localhost:8080/api/pets
+
+###
+
+GET http://localhost:8080/api/users
